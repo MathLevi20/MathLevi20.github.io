@@ -12,6 +12,7 @@ Este é o portfólio pessoal de Matheus Levi, um desenvolvedor de software espec
 - **Moldura Animada na Imagem do Perfil**: Efeito de hover com restauração ao tirar o mouse.
 - **Design Responsivo**: Layout adaptável para diferentes tamanhos de tela.
 
+
 ## Tecnologias Utilizadas
 
 - **Next.js**: Framework React para desenvolvimento web.
