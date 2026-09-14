@@ -4,9 +4,10 @@ const nextConfig = {
     images: {
       unoptimized: true
     },
-    basePath: "https://mathlevi20.github.io/", // ex: "/Portifolio-Matheus-Levi" (se não for user.github.io)
+    // Para repositório user.github.io (domínio raiz), basePath deve ser ""
+    // Se fosse um sub-repositório seria: basePath: "/nome-do-repo"
+    basePath: "",
     trailingSlash: true
   };
   
   module.exports = nextConfig;
-  

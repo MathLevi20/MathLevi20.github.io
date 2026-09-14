@@ -12,6 +12,22 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        // Nature palette extracted from profile photo
+        forest: {
+          deep:  "#0f1a14",
+          mid:   "#14281c",
+          green: "#3d6b4f",
+          leaf:  "#6bad78",
+        },
+        sky: {
+          blue:  "#7cb9e8",
+          light: "#a8c8e8",
+        },
+        nature: {
+          white: "#e8ede4",
+        },
+      },
     },
   },
   plugins: [],
