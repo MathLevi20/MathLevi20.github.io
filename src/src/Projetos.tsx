@@ -26,7 +26,7 @@ const Projects = [
     id: 2,
     title: "Progressive — Gestão de Projetos Kanban",
     description: "Sistema de gestão de projetos baseado no modelo Kanban, focando em usabilidade e acessibilidade. Desenvolvido para melhorar o aproveitamento de tempo dos colaboradores e fornecer um panorama visual de progresso dos projetos.",
-    image: "https://firebasestorage.googleapis.com/v0/b/portifolio-2ebbb.appspot.com/o/Portifolio%2FReact_P1_1.png?alt=media&token=2afe41fe-b1c6-493b-9653-b334a3253a54",
+    image: "/image copy 2.png",
     technologies: ["React", "JavaScript", "CSS", "HTML", "Firebase"],
     github: "https://github.com/MathLevi20/Progressive",
     live: "https://progressive-41851d.netlify.app/",

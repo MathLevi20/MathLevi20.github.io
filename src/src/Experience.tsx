@@ -54,8 +54,8 @@ function Experience() {
     },
     {
       id: 3,
-      company: "Novos Negócios TIC",
-      title: "Mobile Developer",
+      company: "IFCE",
+      title: "Desenvolvedor Mobile (Meio Período)",
       period: "Julho 2023 - Dezembro 2023",
       location: "Remoto",
       description: [

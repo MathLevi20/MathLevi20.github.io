@@ -110,16 +110,7 @@ function Profile() {
               }}
             >
               Matheus{" "}
-              <span
-                style={{
-                  background: "linear-gradient(135deg, #6bad78, #7cb9e8)",
-                  WebkitBackgroundClip: "text",
-                  WebkitTextFillColor: "transparent",
-                  backgroundClip: "text",
-                }}
-              >
-                Levi
-              </span>
+              <span>Levi</span>
             </motion.h1>
 
             {/* Role */}
@@ -127,7 +118,7 @@ function Profile() {
               variants={itemVariants}
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3"
-              style={{ color: "#a8c8e8" }}
+              style={{ color: "#6bad78" }}
               whileHover={{ scale: 1.02, transition: { duration: 0.2 } }}
             >
               Machine Learning Engineer
