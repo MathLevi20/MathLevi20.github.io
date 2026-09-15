@@ -48,41 +48,30 @@ function Navigation() {
           >
             <motion.a
               href="#"
-              className="flex items-center justify-center w-11 h-11 rounded-lg font-mono text-sm font-bold relative"
+              aria-label="Matheus Levi - início"
+              className="group relative flex h-11 w-11 items-center justify-center rounded-md font-mono"
               style={{
-                border: "1.5px solid rgba(107,173,120,0.6)",
-                color: "#6bad78",
-                background: "rgba(61,107,79,0.1)",
+                border: "1px solid rgba(107,173,120,0.55)",
+                background: "rgba(15,26,20,0.72)",
+                boxShadow: "inset 0 0 0 1px rgba(124,185,232,0.06)",
               }}
               whileHover={{
-                scale: 1.08,
-                rotate: 5,
-                borderColor: "rgba(107,173,120,1)",
-                boxShadow: "0 0 20px rgba(107,173,120,0.3)",
+                scale: 1.05,
+                borderColor: "rgba(124,185,232,0.9)",
+                boxShadow: "0 6px 20px rgba(0,0,0,0.3)",
               }}
               whileTap={{ scale: 0.95 }}
-              animate={{
-                boxShadow: [
-                  "0 0 8px rgba(107,173,120,0.15)",
-                  "0 0 16px rgba(107,173,120,0.35)",
-                  "0 0 8px rgba(107,173,120,0.15)"
-                ]
-              }}
-              transition={{
-                boxShadow: { duration: 2.5, repeat: Infinity, ease: "easeInOut" }
-              }}
+              transition={{ duration: 0.2 }}
             >
-              ML
-              {/* Corner dots */}
-              {["-top-1 -left-1", "-top-1 -right-1", "-bottom-1 -left-1", "-bottom-1 -right-1"].map((pos, i) => (
-                <motion.div
-                  key={i}
-                  className={`absolute w-1.5 h-1.5 rounded-full ${pos}`}
-                  style={{ background: "#6bad78" }}
-                  animate={{ scale: [1, 1.5, 1], opacity: [0.4, 1, 0.4] }}
-                  transition={{ duration: 2, repeat: Infinity, delay: i * 0.5 }}
-                />
-              ))}
+              <span className="relative z-10 flex items-baseline text-base font-bold leading-none">
+                <span style={{ color: "#e8ede4" }}>M</span>
+                <span className="mx-px text-xs font-normal" style={{ color: "#7cb9e8" }}>/</span>
+                <span style={{ color: "#6bad78" }}>L</span>
+              </span>
+              <span
+                className="absolute inset-x-2 bottom-1.5 h-px origin-left scale-x-50 transition-transform duration-200 group-hover:scale-x-100"
+                style={{ background: "linear-gradient(90deg, #6bad78, #7cb9e8)" }}
+              />
             </motion.a>
           </motion.div>
 
